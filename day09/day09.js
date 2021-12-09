@@ -55,7 +55,7 @@ function inBasin(x, y) {
     return input[x][y] < 9;
 }
 
-function visit(visited, x, y,) {
+function visit(visited, x, y) {
     const node = [x, y];
     if (node in visited || !inBasin(x, y)) {
         return 0;
